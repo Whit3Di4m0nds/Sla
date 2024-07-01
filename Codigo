@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header h1 {
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2em 0;
+        }
+
+        .project {
+            margin-bottom: 1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meu Portfólio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about" class="container">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Eu sou [Seu Nome], um desenvolvedor web apaixonado por criar soluções inovadoras e eficazes. Tenho experiência em HTML, CSS, JavaScript e outras tecnologias modernas.</p>
+    </section>
+    <section id="projects" class="container">
+        <h2>Projetos</h2>
+        <div class="project">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto 1.</p>
+        </div>
+        <div class="project">
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto 2.</p>
+        </div>
+    </section>
+    <section id="contact" class="container">
+        <h2>Contato</h2>
+        <p>Você pode me contatar através do email: seuemail@exemplo.com</p>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
